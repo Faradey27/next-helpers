@@ -1,0 +1,27 @@
+{
+  "name": "next-helpers",
+  "version": "1.0.0",
+  "description": "List of helpers that try to resolve nextjs limitations - such as do client-side routing before getInitialProps has finished.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faradey27/next-helpers.git"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "fetch",
+    "getInitialProps",
+    "client",
+    "routing",
+    "ssr"
+  ],
+  "author": "Andrii Tiertyshnyi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Faradey27/next-helpers/issues"
+  },
+  "homepage": "https://github.com/Faradey27/next-helpers#readme"
+}
