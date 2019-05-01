@@ -8,7 +8,7 @@ You can find workable app with `withSSR` usage [here](https://github.com/Faradey
 
 Example:
 ```js
-import withSSR from '../../../dist/withSSR'; // in real app should be `import withSSR from 'next-helpers';`
+import withSSR from 'next-helpers';
 
 const UsersPage = ({ users }) => (
   <div>
