@@ -1,10 +1,12 @@
-#next-helpers
+# next-helpers
 > Small HOCs and utils to simplify work with nextjs
 
 ### withSSR(componentDefenition)
 > Allow to perform client-side routing before getInitialProps promise is resolve
 
-You can find workable app with `withSSR` usage [here](https://github.com/Faradey27/next-helpers/tree/master/examples)
+Motivation: https://github.com/zeit/next.js/issues/3501
+
+You can find workable appa with `withSSR` usage [here](https://github.com/Faradey27/next-helpers/tree/master/examples)
 
 Example:
 ```js
@@ -41,4 +43,4 @@ export default withSSR(UsersPage);
 In such example, when user navigation to UsersPage, he will see `List of users that was preloaded on server with getInitialProps:`
 text immediately, then in 1 second, getInitialProps will resolve, UsersPage will re-render and user will see list of users.
 
-p.s. by default nextjs will show blank screen for 1 second, till getInitialProps promise resolve.
+p.s. by default nextjs will show blank screen for 1 second, till getInitialProps promise resolve, withSSR will solve this problem.
