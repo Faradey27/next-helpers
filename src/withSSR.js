@@ -1,3 +1,4 @@
+import React from 'react';
 import { object, bool } from 'prop-types';
 
 const isOnServer = ctx => Boolean(ctx.req);
